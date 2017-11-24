@@ -1,11 +1,13 @@
-﻿namespace CodePractice.BeginnerLevel
+﻿using System;
+
+namespace CodePractice.BeginnerLevel
 {
     /// <summary>
     /// http://cppstudio.com
     /// Составить программу, которая будет считывать введённое пятизначное число. 
     /// После чего, каждую цифру этого числа необходимо вывести в новой строке.
     /// </summary>
-    public class BeginnerLevelTask1
+    public class BeginnerLevelTask01
     {
         /// <summary>
         /// 
@@ -23,5 +25,6 @@
             }
             return array;
         }
+
     }
 }

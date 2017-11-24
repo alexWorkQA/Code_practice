@@ -9,9 +9,9 @@ namespace UnitTestForCodePractice.BegginerLevel
     {
         [TestCase(15,10,3,675)]
         [TestCase(2,5,3,11)]
-        public void DataDrivenTask2(int a,int b, int f, int expectedResult)
+        public void PossitiveDataDrivenForTask02(int a,int b, int f, int expectedResult)
         {
-            int actualResult = BeginnerLevelTask2.CalculateFunction(a,b,f);
+            int actualResult = BeginnerLevelTask02.CalculateFunction(a,b,f);
             Assert.AreEqual(expectedResult,actualResult);
         }
     }

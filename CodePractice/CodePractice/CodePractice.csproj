@@ -43,8 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BeginnerLevel\BeginnerLevelTask1.cs" />
-    <Compile Include="BeginnerLevel\BeginnerLevelTask2.cs" />
+    <Compile Include="BeginnerLevel\BeginnerLevelTask05.cs" />
+    <Compile Include="BeginnerLevel\BeginnerLevelTask01.cs" />
+    <Compile Include="BeginnerLevel\BeginnerLevelTask02.cs" />
+    <Compile Include="BeginnerLevel\BeginnerLevelTask03.cs" />
+    <Compile Include="BeginnerLevel\BeginnerLevelTask04.cs" />
+    <Compile Include="BeginnerLevel\BeginnerLevelTask06.cs" />
+    <Compile Include="BeginnerLevel\BeginnerLevelTask07.cs" />
     <Compile Include="MainApp\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

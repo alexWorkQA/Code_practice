@@ -35,6 +35,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
     <Reference Include="nunit.framework, Version=3.9.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
       <HintPath>..\packages\NUnit.3.9.0\lib\net45\nunit.framework.dll</HintPath>
       <Private>True</Private>
@@ -47,15 +50,14 @@
         <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
       </ItemGroup>
     </When>
-    <Otherwise>
-      <ItemGroup>
-        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework">
-          <Private>False</Private>
-        </Reference>
-      </ItemGroup>
-    </Otherwise>
+    <Otherwise />
   </Choose>
   <ItemGroup>
+    <Compile Include="BegginerLevel\UnitTestTask7.cs" />
+    <Compile Include="BegginerLevel\UnitTestTask6.cs" />
+    <Compile Include="BegginerLevel\UnitTestTask5.cs" />
+    <Compile Include="BegginerLevel\UnitTestTask4.cs" />
+    <Compile Include="BegginerLevel\UnitTestTask3.cs" />
     <Compile Include="BegginerLevel\UnitTestTask2.cs" />
     <Compile Include="BegginerLevel\UnitTestTask1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
