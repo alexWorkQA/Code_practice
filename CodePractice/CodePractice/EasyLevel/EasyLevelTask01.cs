@@ -11,7 +11,12 @@ namespace CodePractice.EasyLevel
     {
         public static double GetY(double[,] testData)
         {
-            throw new NotImplementedException();
+            double result = 0.0d;
+            for (int i = 0; i < 3; i++)
+            {
+                result += (Math.Pow(testData[i, 0],3) - testData[i, 1] + Math.Pow(testData[i, 2],2 ) / Math.Pow(Math.Tan(testData[i, 3]),2));
+            }
+            return result ;
         }
     }
 }

@@ -21,10 +21,10 @@ namespace UnitTestForCodePractice.EasyLevel
             testData[1,2] = 7d;
             testData[1,3] = 8d;
 
-            testData[2,0] = 4;
-            testData[2,1] = 3;
-            testData[2,2] = 1.14;
-            testData[2,3] = 2;
+            testData[2,0] = 4d;
+            testData[2,1] = 3d;
+            testData[2,2] = 1.14d;
+            testData[2,3] = 2d;
 
             return testData;
         }
@@ -34,6 +34,7 @@ namespace UnitTestForCodePractice.EasyLevel
         {
             double[,] testDataForTest= CreateTestData();
             double actualResult = EasyLevelTask01.GetY(testDataForTest);
+            Assert.AreEqual(541.51d,actualResult,0.1d);
         }
     }
 }

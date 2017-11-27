@@ -60,6 +60,8 @@
     <Compile Include="BegginerLevel\UnitTestTask3.cs" />
     <Compile Include="BegginerLevel\UnitTestTask2.cs" />
     <Compile Include="BegginerLevel\UnitTestTask1.cs" />
+    <Compile Include="EasyLevel\UnitTestTask03.cs" />
+    <Compile Include="EasyLevel\UnitTestTask02.cs" />
     <Compile Include="EasyLevel\UnitTestTask01.cs" />
     <Compile Include="Interface\IParceable.cs" />
     <Compile Include="Model\TestData.cs" />
