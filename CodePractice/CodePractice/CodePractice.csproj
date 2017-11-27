@@ -53,6 +53,7 @@
     <Compile Include="EasyLevel\EasyLevelTask01.cs" />
     <Compile Include="EasyLevel\EasyLevelTask02.cs" />
     <Compile Include="EasyLevel\EasyLevelTask03.cs" />
+    <Compile Include="EasyLevel\EasyLevelTask04.cs" />
     <Compile Include="MainApp\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
