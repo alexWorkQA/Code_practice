@@ -7,7 +7,7 @@ namespace UnitTestForCodePractice.EasyLevel
     public class UnitTestTask02
     {
         [TestCase(5,2,55)]
-        public void PossitiveTestForTask02(int n, int k, double expectedResult)
+        public void PossitiveTestForTask02Easy(int n, int k, double expectedResult)
         {
             double actualResult = EasyLevelTask02.GetResult(n, k);
             Assert.AreEqual(expectedResult, actualResult);

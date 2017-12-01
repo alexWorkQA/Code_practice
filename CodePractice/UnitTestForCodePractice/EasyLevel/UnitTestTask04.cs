@@ -7,7 +7,7 @@ namespace UnitTestForCodePractice.EasyLevel
     public class UnitTestTask04
     {
         [Test]
-        public void PossitiveTestForTask04()
+        public void PossitiveTestForTask04Easy()
         {
             int velocity = 60;
             int time = 12;

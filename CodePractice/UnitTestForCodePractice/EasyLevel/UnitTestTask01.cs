@@ -30,7 +30,7 @@ namespace UnitTestForCodePractice.EasyLevel
         }
 
         [Test]
-        public void PossitiveTestForTask01()
+        public void PossitiveTestForTask01Easy()
         {
             double[,] testDataForTest= CreateTestData();
             double actualResult = EasyLevelTask01.GetY(testDataForTest);

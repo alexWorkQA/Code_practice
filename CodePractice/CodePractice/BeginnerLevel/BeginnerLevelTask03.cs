@@ -14,7 +14,7 @@
         /// <returns></returns>
         public static char CharToUpperCase(char ch)
         {
-            if (ch >= 97 || ch <= 122)
+            if (ch >= 97 && ch <= 122)
                 return (char)(ch - 32);
             else
                 return ' ';

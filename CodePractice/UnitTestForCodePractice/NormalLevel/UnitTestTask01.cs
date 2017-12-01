@@ -7,7 +7,7 @@ namespace UnitTestForCodePractice.NormalLevel
     public class UnitTestTask01
     {
         [Test]
-        public void PositiveTestForTask01()
+        public void PositiveTestForTask01Normal()
         {
             string path = "E:\\ЛПР\\Code_practice\\Code_practice\\CodePractice\\UnitTestForCodePractice\\TestDataSet\\NormalLevelTask01.txt";
             long fileLength = NormalLevelTask01.GetFileLength(path);
@@ -18,7 +18,7 @@ namespace UnitTestForCodePractice.NormalLevel
         }
 
         [Test]
-        public void PositiveTestForTask01_2()
+        public void PositiveTestForTask01_2Normal()
         {
             string path = "E:\\ЛПР\\Code_practice\\Code_practice\\CodePractice\\UnitTestForCodePractice\\TestDataSet\\NormalLevelTask01_2.txt";
             long fileLength = NormalLevelTask01.GetFileLength(path);

@@ -8,7 +8,7 @@ namespace UnitTestForCodePractice.NormalLevel
     public class UnitTestTask03
     {
         [Test]
-        public void PositiveTestForTask03()
+        public void PositiveTestForTask03Normal()
         {
             int[] expectedResult = new int[4] { 15, 80, 195, 360 };
             DataModelTask02 testData;

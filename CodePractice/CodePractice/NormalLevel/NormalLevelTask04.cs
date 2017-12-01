@@ -17,12 +17,12 @@ namespace CodePractice.NormalLevel
         /// </summary>
         /// <param name="incommingArray"></param>
         /// <returns></returns>
-        public static int [] IncreaseArrayCapacity(int [] incommingArray)
+        private static int [] IncreaseArrayCapacity(int [] incommingArray)
         {
             int[] array = new int[incommingArray.Length + 1];
-            array = CopyArrayToArray(incommingArray);
             return array;
         }
+
         /// <summary>
         /// Copy param to new Array
         /// </summary>
@@ -30,7 +30,7 @@ namespace CodePractice.NormalLevel
         /// <returns></returns>
         private static int[] CopyArrayToArray(int[] incommingArray)
         {
-            int[] result = new int[incommingArray.Length];
+            int[] result = IncreaseArrayCapacity(incommingArray);
             for (int i = 0; i<incommingArray.Length; i++)
             {
                 result[i] = incommingArray[i];
@@ -38,20 +38,25 @@ namespace CodePractice.NormalLevel
             return result;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="incommingArray"></param>
+        /// <param name="num"></param>
+        /// <returns></returns>
         public static int [] AddNewNumber(int [] incommingArray, int num)
         {
-            if (num > 0)
+            if (num != 0)
             {
-                int[] result = IncreaseArrayCapacity(incommingArray);
+                int[] result = CopyArrayToArray(incommingArray);
+                result[incommingArray.Length] = num;
                 return result;
             }
             else 
-            if (num ==0)
             {
                 return incommingArray;
             }
-            //sfsdf
-            return null;
+
         }
     }
 }

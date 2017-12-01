@@ -78,6 +78,9 @@
     <Compile Include="NormalLevel\NormalLevelTask02.cs" />
     <Compile Include="NormalLevel\NormalLevelTask03.cs" />
     <Compile Include="NormalLevel\NormalLevelTask04.cs" />
+    <Compile Include="NormalLevel\NormalLevelTask07.cs" />
+    <Compile Include="NormalLevel\NormalLevelTask08.cs" />
+    <Compile Include="NormalLevel\NormalLevelTask09.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

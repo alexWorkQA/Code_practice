@@ -9,7 +9,7 @@ namespace UnitTestForCodePractice.EasyLevel
         [TestCase(1,"Monday")]
         [TestCase(7, "Sunday")]
         [TestCase(9, "Wrong day")]
-        public void PossitiveTestForTask06(int dayName, string expectedResult)
+        public void PossitiveTestForTask06Easy(int dayName, string expectedResult)
         {
             string actualResult = EasyLevelTask06.GetDay(dayName);
             Assert.AreEqual(expectedResult, actualResult);

@@ -8,7 +8,7 @@ namespace UnitTestForCodePractice.EasyLevel
     {
         [TestCase(15, 5, 1)]
         [TestCase(75, 7, 5)]
-        public void PossitiveTestForTask03(int number, int expectedLarge, int expectedSmall)
+        public void PossitiveTestForTask03Easy(int number, int expectedLarge, int expectedSmall)
         {
             int actualSmall = EasyLevelTask03.getSmall(number);
             Assert.AreEqual(expectedSmall, actualSmall);
