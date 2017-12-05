@@ -1,15 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CodePractice.NormalLevel
 {
     public class NormalLevelTask09
     {
         /// <summary>
-        /// 
+        /// Составить программу, которая будет генерировать случайные числа в интервале [a;b] и заполнять ими двумерный массив размером 10 на 10.
         /// </summary>
         /// <param name="x"></param>
         /// <param name="y"></param>
