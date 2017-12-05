@@ -8,7 +8,7 @@ namespace UnitTestForCodePractice.BegginerLevel
     {
         [TestCase(15,0.015)]
         [TestCase(12,0.012)]
-        public void PossitiveDataDrivenForTask04(int meters, double expectedResult)
+        public void PossitiveDataDrivenForTask04Beginner(int meters, double expectedResult)
         {
             double actualResult = BeginnerLevelTask04.FromMetersToKilometers(meters);
             Assert.AreEqual(expectedResult,actualResult);

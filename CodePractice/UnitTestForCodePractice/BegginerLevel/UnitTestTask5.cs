@@ -7,7 +7,7 @@ namespace UnitTestForCodePractice.BegginerLevel
     public class UnitTestTask5
     {
         [Test]
-        public void MethodConvertFromIntToChar()
+        public void MethodConvertFromIntToCharBeginner()
         {
             BeginnerLevelTask05.ConvertFromIntToChar();
         }

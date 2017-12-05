@@ -10,7 +10,7 @@ namespace UnitTestForCodePractice.BegginerLevel
         [TestCase('f','F')]
         [TestCase('a', 'A')]
         [TestCase('b', 'B')]
-        public void PossitiveDataDrivenForTask03(char incommingChar, char expectedResult)
+        public void PositiveDataDrivenForTask03Beginner(char incommingChar, char expectedResult)
         {
             char actualResult = BeginnerLevelTask03.CharToUpperCase(incommingChar);
             Assert.AreEqual(expectedResult, actualResult);

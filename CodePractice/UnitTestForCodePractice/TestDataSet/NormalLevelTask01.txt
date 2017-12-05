@@ -1,0 +1,5 @@
+﻿{Text created for test Task01
+{
+It's positive test
+}
+}

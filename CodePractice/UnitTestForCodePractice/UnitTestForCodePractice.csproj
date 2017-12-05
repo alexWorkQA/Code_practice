@@ -60,7 +60,29 @@
     <Compile Include="BegginerLevel\UnitTestTask3.cs" />
     <Compile Include="BegginerLevel\UnitTestTask2.cs" />
     <Compile Include="BegginerLevel\UnitTestTask1.cs" />
+    <Compile Include="EasyLevel\UnitTestTask07.cs" />
+    <Compile Include="EasyLevel\UnitTestTask06.cs" />
+    <Compile Include="EasyLevel\UnitTestTask05.cs" />
+    <Compile Include="EasyLevel\UnitTestTask04.cs" />
+    <Compile Include="EasyLevel\UnitTestTask03.cs" />
+    <Compile Include="EasyLevel\UnitTestTask02.cs" />
+    <Compile Include="EasyLevel\UnitTestTask01.cs" />
+    <Compile Include="Interface\IParceable.cs" />
+    <Compile Include="Model\TestData.cs" />
+    <Compile Include="NormalLevel\UnitTestTask14.cs" />
+    <Compile Include="NormalLevel\UnitTestTask13.cs" />
+    <Compile Include="NormalLevel\UnitTestTask11.cs" />
+    <Compile Include="NormalLevel\UnitTestTask10.cs" />
+    <Compile Include="NormalLevel\UnitTestTask09.cs" />
+    <Compile Include="NormalLevel\UnitTestTask08.cs" />
+    <Compile Include="NormalLevel\UnitTestTask07.cs" />
+    <Compile Include="NormalLevel\UnitTestTask04.cs" />
+    <Compile Include="NormalLevel\UnitTestTask03.cs" />
+    <Compile Include="NormalLevel\UnitTestTask02.cs" />
+    <Compile Include="NormalLevel\UnitTestTask01.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestHelper\DataParcerTask01.cs" />
+    <Compile Include="TestHelper\TestDataParcer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -71,6 +93,14 @@
       <Name>CodePractice</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="TestDataSet\NormalLevelTask01.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestDataSet\NormalLevelTask01_2.txt" />
+    <Content Include="TestDataSet\TestDataSetTask01.xml" />
+  </ItemGroup>
+  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
