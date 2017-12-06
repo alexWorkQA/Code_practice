@@ -87,6 +87,8 @@
     <Compile Include="NormalLevel\NormalLevelTask12.cs" />
     <Compile Include="NormalLevel\NormalLevelTask13.cs" />
     <Compile Include="NormalLevel\NormalLevelTask14.cs" />
+    <Compile Include="NormalLevel\NormalLevelTask15.cs" />
+    <Compile Include="NormalLevel\NormalLevelTask16.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

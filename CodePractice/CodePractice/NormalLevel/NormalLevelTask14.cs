@@ -25,8 +25,27 @@ namespace CodePractice.NormalLevel
             worker.WorkedHours = workedHours;
             return worker;
         }
+        //Get Salary for exact worker
+        public static double GetWorkersSalary(WorkerModelTask14Normal worker)
+        {
+            double resultSalary = worker.WorkedHours * worker.HourlyWag;
+            return resultSalary;
+        }
 
+        //Get Premy for exact worker
+        public static double GetWorkersPremy(WorkerModelTask14Normal worker)
+        {
+            double primeRate = 0.0d;
+            if (worker.Experience <= 1) primeRate = 0;
+            else
+                if (worker.Experience > 1 && worker.Experience <= 3) primeRate = 5;
+            else
+                if (worker.Experience > 3 && worker.Experience <= 5) primeRate = 8;
+            else
+                primeRate = 15;
 
-
+                double resultPrime = GetWorkersSalary(worker) * primeRate / 100;
+            return resultPrime;
+        }
     }
 }
