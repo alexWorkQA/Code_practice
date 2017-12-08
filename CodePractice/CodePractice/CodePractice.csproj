@@ -74,7 +74,9 @@
     <Compile Include="EasyLevel\EasyLevelTask07.cs" />
     <Compile Include="MainApp\Program.cs" />
     <Compile Include="Models\DataModelTask02.cs" />
+    <Compile Include="Models\DataModelTask26.cs" />
     <Compile Include="Models\WorkerModelTask14Normal.cs" />
+    <Compile Include="NormalLevel\NormalLevelTask22.cs" />
     <Compile Include="NormalLevel\NormalLevelTask01.cs" />
     <Compile Include="NormalLevel\NormalLevelTask02.cs" />
     <Compile Include="NormalLevel\NormalLevelTask03.cs" />
@@ -89,6 +91,16 @@
     <Compile Include="NormalLevel\NormalLevelTask14.cs" />
     <Compile Include="NormalLevel\NormalLevelTask15.cs" />
     <Compile Include="NormalLevel\NormalLevelTask16.cs" />
+    <Compile Include="NormalLevel\NormalLevelTask17.cs" />
+    <Compile Include="NormalLevel\NormalLevelTask18.cs" />
+    <Compile Include="NormalLevel\NormalLevelTask19.cs" />
+    <Compile Include="NormalLevel\NormalLevelTask20.cs" />
+    <Compile Include="NormalLevel\NormalLevelTask21.cs" />
+    <Compile Include="NormalLevel\NormalLevelTask23.cs" />
+    <Compile Include="NormalLevel\NormalLevelTask24.cs" />
+    <Compile Include="NormalLevel\NormalLevelTask25.cs" />
+    <Compile Include="NormalLevel\NormalLevelTask26.cs" />
+    <Compile Include="NormalLevel\NormalLevelTask27.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
