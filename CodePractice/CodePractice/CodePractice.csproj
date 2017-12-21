@@ -65,6 +65,9 @@
     <Compile Include="BeginnerLevel\BeginnerLevelTask04.cs" />
     <Compile Include="BeginnerLevel\BeginnerLevelTask06.cs" />
     <Compile Include="BeginnerLevel\BeginnerLevelTask07.cs" />
+    <Compile Include="CodeWarsTasks\NarcissisticNumber.cs" />
+    <Compile Include="CodeWarsTasks\ReversedWords.cs" />
+    <Compile Include="CodeWarsTasks\SpinningWords.cs" />
     <Compile Include="EasyLevel\EasyLevelTask01.cs" />
     <Compile Include="EasyLevel\EasyLevelTask02.cs" />
     <Compile Include="EasyLevel\EasyLevelTask03.cs" />

@@ -60,6 +60,9 @@
     <Compile Include="BegginerLevel\UnitTestTask3.cs" />
     <Compile Include="BegginerLevel\UnitTestTask2.cs" />
     <Compile Include="BegginerLevel\UnitTestTask1.cs" />
+    <Compile Include="CodeWarTests\UnitTestReversedWords.cs" />
+    <Compile Include="CodeWarTests\UnitTestNarcissisticNumber.cs" />
+    <Compile Include="CodeWarTests\UnitTestSpinningWords.cs" />
     <Compile Include="EasyLevel\UnitTestTask07.cs" />
     <Compile Include="EasyLevel\UnitTestTask06.cs" />
     <Compile Include="EasyLevel\UnitTestTask05.cs" />
