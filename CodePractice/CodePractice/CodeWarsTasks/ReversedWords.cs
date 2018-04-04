@@ -3,7 +3,7 @@
 namespace CodePractice.CodeWarsTasks
 {
     /// <summary>
-    /// Kata.ReverseWords("The greatest victory is that which requires no battle");
+    /// ValidatePinClass.ReverseWords("The greatest victory is that which requires no battle");
     /// should return "battle no requires which that is victory greatest The"
     /// </summary>
     public class ReversedWords

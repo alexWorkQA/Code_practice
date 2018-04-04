@@ -60,6 +60,14 @@
     <Compile Include="BegginerLevel\UnitTestTask3.cs" />
     <Compile Include="BegginerLevel\UnitTestTask2.cs" />
     <Compile Include="BegginerLevel\UnitTestTask1.cs" />
+    <Compile Include="CodeWarTests\UnitTestSumDigitClass.cs" />
+    <Compile Include="CodeWarTests\UnitTestArithmeticClass.cs" />
+    <Compile Include="CodeWarTests\UnitTestPangramClass.cs" />
+    <Compile Include="CodeWarTests\UnitTestSmiles.cs" />
+    <Compile Include="CodeWarTests\UnitTestLikesString.cs" />
+    <Compile Include="CodeWarTests\UnitTestTortoiseRaising.cs" />
+    <Compile Include="CodeWarTests\UnitTestValidatePin.cs" />
+    <Compile Include="CodeWarTests\UnitTestHighestAndLowest.cs" />
     <Compile Include="CodeWarTests\UnitTestReversedWords.cs" />
     <Compile Include="CodeWarTests\UnitTestNarcissisticNumber.cs" />
     <Compile Include="CodeWarTests\UnitTestSpinningWords.cs" />

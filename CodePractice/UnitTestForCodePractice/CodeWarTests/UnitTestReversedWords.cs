@@ -13,7 +13,7 @@
             Assert.AreEqual("world! hello", ReversedWords.ReverseWords("hello world!"));
             Assert.AreEqual("this like speak doesn't yoda", ReversedWords.ReverseWords("yoda doesn't speak like this"));
             Assert.AreEqual("foobar", ReversedWords.ReverseWords("foobar"));
-            Assert.AreEqual("kata editor", ReversedWords.ReverseWords("editor kata"));
+            Assert.AreEqual("ValidatePinClass editor", ReversedWords.ReverseWords("editor ValidatePinClass"));
             Assert.AreEqual("boat your row row row", ReversedWords.ReverseWords("row row row your boat"));
         }
     }
